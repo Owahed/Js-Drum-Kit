@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.key{
+    padding: 20px 10px;
+    margin: 10px 5px;
+    border: 1px solid blueviolet;
+    transition: all 0.07s;
+}
+.playing{
+    background-color: yellow;
+    border: 2px solid tomato;
+    transform: scale(1.1);
+}
